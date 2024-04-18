@@ -4,16 +4,17 @@ Reads a multi-FASTA file and performs operations on extracted data.
 
 ## Requirements
 - Python 3
+- seqstats.py module
 
 ## Usage
-    pygenfinal.py [-h] <filename>
+    sample_usage.py [-h] <filename>
 
     -h              print this message
     
     <filename>      the file has to be in FASTA format
 
 ## Summary
-This program was developed as a final project, and parts of it could be improved for better usage.  For example, I chose to wrap all statistics about the given multi-FASTA file into a class.  I could have split the class into a separate module and provided an example Python file showing how to interface with the class.
+This program was developed as a final project for Coursera's Python for Genomics course, offered through Johns Hopkins.  I chose to wrap all statistics about the given multi-FASTA file into a class, contained in the module seqstats.py.
 
 ## SeqStats Class Basics
 To create a new instance:
